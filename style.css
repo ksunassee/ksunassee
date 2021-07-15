@@ -1,0 +1,151 @@
+h1 {
+	color: yellow;
+    text-align: center;
+    font-family: Caveat;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+    font-family: Lobster;
+}
+
+h4 {
+    color: yellow;
+}
+
+body {
+    background-image:   url('   https://cdn.pixabay.com/photo/2019/04/06/06/44/astronaut-4106766_960_720.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    width:  1024px;
+    text-align: center;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    height: 150px;
+    border-radius: 30%;
+}
+
+.cv-header {
+    text-align: center;
+}
+
+.linkedin a { 
+    color: yellow;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: red;
+    border-radius: 5px;
+}
+.linkedin {
+    text-align: center;
+}
+.iframe_gif {
+    width: 200px;
+    height:  200px;
+    box-shadow:  2px 2px 4px #606060;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.world-citizen-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding:  5px;
+    margin-bottom: 30px;
+}
+.world-citizen-header p {
+    margin:  5px;
+} 
+
+.career-box ul {
+    list-style-type: none;
+    padding:  0px;
+}
+
+.career-box ul li {
+    display: inline-flex;
+}
+
+.career-box ul > li > img {
+    width: 30px;
+    height: 30px;
+    padding-right:  10px;
+}
+
+.career-header-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.career-box {
+    text-align: left;
+}
+
+.career-header-box img {
+    margin-left: 10px;
+}
+
+.box-freetime ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.box-freetime ul li {
+    display: inline-block;
+}
+
+.box-freetime ul > li > iframe {
+    width: 200px;
+    height: 150px;
+}
+
+.box-education ul {
+    list-style-type: none;
+    padding:  0px;
+}
+
+.box-education ul > li > img {
+    width: 30px;
+    height: 30px;
+    padding-right:  10px;
+}
+
+.box-education {
+    text-align: left;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+.links ul li {
+    display: inline-block;
+}
+
+
+
+
